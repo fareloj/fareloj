@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=00F0FF&height=180&section=header&text=%40fareloj&fontSize=64&fontColor=0d1117&fontAlignY=55&animation=fadeIn" width="100%"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00F0FF&center=true&vCenter=true&width=700&lines=SYSTEM+BOOT+SEQUENCE+INITIATED...;LOADING+MODULE%3A+%40fareloj;AUTHENTICATION%3A+SUCCESS;WELCOME%2C+OPERATOR." alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:00F0FF&height=260&section=header&text=%40fareloj&fontSize=70&fontColor=00F0FF&fontAlignY=50&animation=fadeIn" width="100%"/>
 
 </div>
 
@@ -174,17 +170,6 @@ operator@fareloj:~$ tail -f ./status.log
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=fareloj&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00F0FF&line=FF00E4&point=ffffff&area=true" width="95%"/>
 
-</div>
-
-<br/>
-
-<h2 align="center">
-  <img src="https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif" width="28"/>
-  TROPHIES
-</h2>
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=fareloj&theme=algolia&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=7" />
 </div>
 
 <br/>
