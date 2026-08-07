@@ -1,16 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2500&pause=800&color=00F0FF&center=true&vCenter=true&width=900&lines=SYSTEM+BOOT+SEQUENCE+INITIATED...;LOADING+MODULE%3A+%40fareloj;AUTHENTICATION%3A+SUCCESS;WELCOME%2C+OPERATOR." alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=00F0FF&height=180&section=header&text=%40fareloj&fontSize=64&fontColor=0d1117&fontAlignY=55&animation=fadeIn" width="100%"/>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:00F0FF&height=260&section=header&text=%40fareloj&fontSize=70&fontColor=00F0FF&fontAlignY=38&desc=Engenharia%20de%20Sistemas%20de%20IA%20%2B%20Trading%20Algor%C3%ADtmico&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/STATUS-ONLINE-00F0FF?style=for-the-badge&labelColor=0d1117&logo=statuspage&logoColor=00F0FF" />
-<img src="https://img.shields.io/badge/MODE-PAPER_TRADING-FF00E4?style=for-the-badge&labelColor=0d1117&logo=chartdotjs&logoColor=FF00E4" />
-<img src="https://img.shields.io/badge/CORE-PYTHON_%2F_PANDAS-FFD600?style=for-the-badge&labelColor=0d1117&logo=python&logoColor=FFD600" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00F0FF&center=true&vCenter=true&width=700&lines=SYSTEM+BOOT+SEQUENCE+INITIATED...;LOADING+MODULE%3A+%40fareloj;AUTHENTICATION%3A+SUCCESS;WELCOME%2C+OPERATOR." alt="Typing SVG" />
 
 </div>
 
