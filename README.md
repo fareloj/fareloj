@@ -123,32 +123,6 @@ Bot de **Paper Trading** (BTC/BRL) com separação rígida entre matemática det
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ Dashboard de Caixa de Vidro
-Frontend em **Electron** para controle e observabilidade do bot — expõe cada decisão, cada indicador e cada bloqueio de risco de forma auditável.
-
-- 📡 Conecta a um servidor **FastAPI** para stream de dados em tempo real.
-- 🔍 Filosofia "Glass Box": nenhuma decisão é uma caixa-preta.
-- 🧪 Suite de testes "Red Team" simulando flash crashes e alucinações de LLM.
-
-`Electron` `FastAPI` `JavaScript`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔒 FaceLock
-Aplicativo local para Windows 11 que usa um celular Android como câmera de reconhecimento facial para **auto-lock por ausência** — sem nunca substituir a autenticação do Windows.
-
-- 📵 Processamento 100% local — nenhuma imagem trafega pela internet.
-- 🚶 Detecta quando o usuário se afasta e bloqueia a tela após contagem regressiva.
-- 🔓 Desbloqueio continua pelo PIN nativo do Windows — sem tocar no Credential Provider.
-
-`Python` `OpenCV` `ONNX Runtime` `InsightFace` `PySide6`
-
-</td>
-<td width="50%" valign="top">
-
 ### 🔎 Busca Híbrida Local
 Motor de busca *self-hosted* para repositórios, combinando recuperação lexical e semântica sem depender de nenhum serviço externo.
 
@@ -161,23 +135,6 @@ Motor de busca *self-hosted* para repositórios, combinando recuperação lexica
 </td>
 </tr>
 </table>
-
-<br/>
-
-<h2 align="center">
-  <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="28"/>
-  LABS &amp; EXPERIMENTOS
-</h2>
-
-<div align="center">
-
-| Experimento | Descrição | Stack |
-|---|---|---|
-| 🪙 **Gold Mine Tycoon 3D** | Jogo tycoon em 1ª pessoa no Godot 4, usado como benchmark comparando modelos de IA (Gemini, GPT) na implementação zero-shot de um mesmo plano de jogo. | `Godot 4` `GDScript` |
-| 🧠 **Avaliação de LLMs Locais** | Comparação prática de modelos (Qwen, Gemma, DeepSeek-R1, GPT-OSS) sob restrição real de VRAM/RAM numa RTX 3060 12GB — quantização, MoE e uso como orquestradores de agentes. | `LM Studio` `Ollama` |
-| 😂 **Fine-tuning de Humor** | Fine-tuning de um modelo pequeno para gerar piadas, comparando a versão base com a ajustada e mapeando falhas de generalização e coerência. | `Qwen` `LoRA` |
-
-</div>
 
 <br/>
 
