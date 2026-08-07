@@ -18,12 +18,13 @@
 
 operator:
   handle: "@fareloj"
-  role: "AI Systems & Algorithmic Trading Engineer"
+  role: "AI Systems Engineer — Trading, Visão Computacional & LLMs Locais"
   philosophy: "Determinismo para a matemática. IA apenas para julgamento qualitativo."
   current_focus:
     - "Arquiteturas 'Caixa de Vidro' — todo dado e decisão é auditável, nada é caixa-preta."
-    - "Isolamento rigoroso entre Risk Management determinístico e Análise via LLM."
-    - "Pipelines de dados em tempo real: ingestão -> features -> decisão -> execução."
+    - "Sistemas 100% locais e privados: nenhuma imagem, prompt ou dado sensível sai da máquina."
+    - "Orquestração de agentes de IA que planejam, mas nunca executam ações arbitrárias sem controle."
+    - "Avaliação prática de LLMs locais (Qwen, Gemma, GPT-OSS) sob restrição real de VRAM/RAM."
   mantra: "A IA decide o sentimento. O Pandas decide os números. O Risco decide se acontece."
 ```
 
@@ -53,6 +54,18 @@ operator:
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900" />
 <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
+<img src="https://img.shields.io/badge/PySide6_%2F_Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
+<img src="https://img.shields.io/badge/Godot_4-478CBF?style=for-the-badge&logo=godotengine&logoColor=white" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+<br/>
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=00F0FF" />
+<img src="https://img.shields.io/badge/LM_Studio-1A1A1A?style=for-the-badge&logoColor=00F0FF" />
+<img src="https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=00F0FF" />
 
 </div>
 
@@ -121,7 +134,50 @@ Frontend em **Electron** para controle e observabilidade do bot — expõe cada 
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔒 FaceLock
+Aplicativo local para Windows 11 que usa um celular Android como câmera de reconhecimento facial para **auto-lock por ausência** — sem nunca substituir a autenticação do Windows.
+
+- 📵 Processamento 100% local — nenhuma imagem trafega pela internet.
+- 🚶 Detecta quando o usuário se afasta e bloqueia a tela após contagem regressiva.
+- 🔓 Desbloqueio continua pelo PIN nativo do Windows — sem tocar no Credential Provider.
+
+`Python` `OpenCV` `ONNX Runtime` `InsightFace` `PySide6`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔎 Busca Híbrida Local
+Motor de busca *self-hosted* para repositórios, combinando recuperação lexical e semântica sem depender de nenhum serviço externo.
+
+- 🧩 Fusão de resultados via **Reciprocal Rank Fusion** entre BM25/Lucene e embeddings vetoriais.
+- 🧠 Embeddings e reranking rodando localmente via **Ollama** (`Qwen3-Embedding` / `Qwen3-Reranker`).
+- 🗃️ Índice vetorial em C++ + **pgvector** no PostgreSQL para persistência e filtragem.
+
+`PostgreSQL` `pgvector` `Ollama` `Java` `C++`
+
+</td>
+</tr>
 </table>
+
+<br/>
+
+<h2 align="center">
+  <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="28"/>
+  LABS &amp; EXPERIMENTOS
+</h2>
+
+<div align="center">
+
+| Experimento | Descrição | Stack |
+|---|---|---|
+| 🪙 **Gold Mine Tycoon 3D** | Jogo tycoon em 1ª pessoa no Godot 4, usado como benchmark comparando modelos de IA (Gemini, GPT) na implementação zero-shot de um mesmo plano de jogo. | `Godot 4` `GDScript` |
+| 🧠 **Avaliação de LLMs Locais** | Comparação prática de modelos (Qwen, Gemma, DeepSeek-R1, GPT-OSS) sob restrição real de VRAM/RAM numa RTX 3060 12GB — quantização, MoE e uso como orquestradores de agentes. | `LM Studio` `Ollama` |
+| 😂 **Fine-tuning de Humor** | Fine-tuning de um modelo pequeno para gerar piadas, comparando a versão base com a ajustada e mapeando falhas de generalização e coerência. | `Qwen` `LoRA` |
+
+</div>
 
 <br/>
 
